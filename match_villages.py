@@ -10,8 +10,6 @@ step 4: Match daily climate features to village coordinates (nearest neighbor wi
     ../../../Data/CDS_Climate/Processed/panels/daily_panel_k5.csv
     ../../../Data/CDS_Climate/Processed/panels/daily_panel_k10.csv
 
-James Note: in the KNN, please use k=[3,5,10]; generate three different output files with each k (file name indicating k)
-
 Note for using for other villages:
 there is a good amount of flexibility for header names
 village id can be id, village_id, or pseudo_village_id and also it automatically converts to lowercase
